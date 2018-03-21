@@ -10,7 +10,7 @@ function writeCode(prefix,code,fn){
             window.clearInterval(id)
             fn && fn.call()
         }
-    },0)
+    },20)
 }
 function writeMarkdown(md,fn){
     let domContent = document.querySelector('#paper > .content')
@@ -23,7 +23,7 @@ function writeMarkdown(md,fn){
             window.clearInterval(id)
             fn.call()
         }
-    },0)
+    },20)
 }
 var md=`
 # 你好
@@ -111,9 +111,18 @@ body{
 *接下来介绍一下自己
 *需要一张白纸
 */
-#code-wrapper{ 
-    position:fixed; left:0;
-    width:50%; height:100%
+@media only screen and (min-width: 414px) {
+    #code-wrapper{ 
+        position:fixed; left:0;
+        width:50%; height:100vh;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #code-wrapper{ 
+        position:fixed; left:0;
+        width:100%; height:50vh;
+    }
 }
 #paper> .content{ 
     display:block;
