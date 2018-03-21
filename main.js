@@ -10,7 +10,7 @@ function writeCode(prefix,code,fn){
             window.clearInterval(id)
             fn && fn.call()
         }
-    },0)
+    },20)
 }
 function writeMarkdown(md,fn){
     let domContent = document.querySelector('#paper > .content')
@@ -23,7 +23,7 @@ function writeMarkdown(md,fn){
             window.clearInterval(id)
             fn.call()
         }
-    },0)
+    },20)
 }
 var md=`
 # 你好
