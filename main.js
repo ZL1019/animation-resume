@@ -46,20 +46,15 @@ var md=`
 # 项目介绍
 
 1. 画板：原生JS + 调用 Canvas API，实现了划线、调色、橡皮擦、保存等功能。
-[源码链接](https://github.com/ZL1019/canvas-demo)
-[预览链接](https://zl1019.github.io/canvas-demo/index.html)
+
 2. 简历编辑器：使用 Vue 实现一个可编辑简历的工具，可以在线修改简历、分享简历、换主题等。
-[源码链接](https://github.com/ZL1019/vue-resume-2)
-[预览链接](https://zl1019.github.io/vue-resume-2/src/index.html)
+
 3. 导航网站：使用原生JS实现，监听键盘事件跳转到对应网站。
-[源码链接](https://github.com/ZL1019/nav-demo) 
-[预览链接](https://zl1019.github.io/nav-demo/index.html)
+
 4. 仿网易云移动端：使用 jQuery 实现，包含后台管理页面，可上传歌曲以及歌词。播放歌曲，展示歌词等。
-[源码链接](https://github.com/ZL1019/163-music-demo)
-[预览链接](http://baibaibai.top/src/)
+
 5. CSS 画皮卡丘：使用原生 JS 和 CSS 实现，可在线展示画皮卡丘的过程。
-[源码链接](https://github.com/ZL1019/Pikachu)
-[预览链接](https://zl1019.github.io/Pikachu/)
+
 
 # 联系方式
 
