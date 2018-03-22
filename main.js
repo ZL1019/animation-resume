@@ -40,7 +40,8 @@ var md=`
 - 熟悉 jQuery
 - 熟悉 Vue
 - 移动端页面制作，理解 MVC、MVVM 等思想
-
+- AJAX,JSONP
+- Node.js
 
 # 项目介绍
 
